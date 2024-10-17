@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/9f1b7ade-96e1-41d2-84a2-8c7f49eb4185
 ## Challenges and Solutions[![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#challenges) 
 
 * One of the biggest challenges was implementing AprilTags into the system, which was essential for guiding the robot's movements around the partial test course. The Turtlebot's LiDAR camera was capable of recognizing AprilTags and capturing images of them; however, the Turtlebot failed to respond to all AprilTags. Each tag was intended to trigger a specific movement function. For instance, upon detecting an AprilTag, the robot was supposed to turn and move a designated distance around the partial test course. This problem was later resolved by refining the code to assign a unique key to each scanned AprilTag image.
-* Another challenge was the fight against time. Turtlebot's limited battery capacity required frequent recharging. With a large number of participants and limited robots available, this led to considerable time lost during the testing phase, posing a challenge for all teams participating.
+* Another challenge was the race against time. Turtlebot's limited battery capacity required frequent recharging. With a large number of participants and limited robots available, this led to considerable time lost during the testing phase, posing a challenge for all teams participating.
 ---
 
 https://github.com/user-attachments/assets/5d4cc9f6-c880-45b5-8eff-aba5789585ab
