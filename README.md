@@ -20,6 +20,7 @@ https://github.com/user-attachments/assets/9f1b7ade-96e1-41d2-84a2-8c7f49eb4185
 * **Autonomous Navigation: **The next goal was then to create a fully autonomous loop around the obstacle course. The team successfully simulated the robot's path using a pre-scanned map obtained from the LiDAR sensor, allowing it to plan an efficient route to the designated destination.
 ---
 ## Challenges and Solutions[![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#challenges)
+
 One of the biggest challenges was implementing AprilTags into the system, which was essential for guiding the robot's movements around the partial test course. The Turtlebot's LiDAR camera was capable of recognizing AprilTags and capturing images of them; however, the Turtlebot failed to respond to all AprilTags. Each tag was intended to trigger a specific movement function. For instance, upon detecting an AprilTag, the robot was supposed to turn and move a designated distance around the partial test course. This problem was later resolved by refining the code to assign a unique key to each scanned AprilTag image. 
 ---
 
