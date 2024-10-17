@@ -16,8 +16,8 @@ https://github.com/user-attachments/assets/9f1b7ade-96e1-41d2-84a2-8c7f49eb4185
 ## Project Overview[![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#overview)
 
 * **Collision Avoidance:** This was the first phase of the project. The robot was programmed to navigate an obstacle course while avoiding collisions with obstacles. Utilizing its LiDAR sensor, the robot successfully detected obstacles in real-time and adjusted its path accordingly. It was also programmed to halt and reverse when it encountered an obstacle.
-* **Stop Sign Recognition: **For the second phase, the built in camera system in the TurtleBot was used to identify stop signs placed throughout the obstacle course. The robot was trained using YOLO machine learning model to recognize the stop signs and come to a complete stop. This feature is crucial for enhancing safety and compliance in autonomous navigation.
-* **Autonomous Navigation: **The next goal was then to create a fully autonomous loop around the obstacle course. The team successfully simulated the robot's path using a pre-scanned map obtained from the LiDAR sensor, allowing it to plan an efficient route to the designated destination.
+* **Stop Sign Recognition:** For the second phase, the built in camera system in the TurtleBot was used to identify stop signs placed throughout the obstacle course. The robot was trained using YOLO machine learning model to recognize the stop signs and come to a complete stop. This feature is crucial for enhancing safety and compliance in autonomous navigation.
+* **Autonomous Navigation:** The next goal was then to create a fully autonomous loop around the obstacle course. The team successfully simulated the robot's path using a pre-scanned map obtained from the LiDAR sensor, allowing it to plan an efficient route to the designated destination.
 ---
 ## Challenges and Solutions[![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#challenges) 
 
